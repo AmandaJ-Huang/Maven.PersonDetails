@@ -52,7 +52,7 @@ public class PersonHandler {
             result = result + person.toString();
             counter++;
         }
-        
+
         return result;
     }
 
@@ -68,7 +68,9 @@ public class PersonHandler {
                 // get `string Representation` of `currentPerson`
                 // append `stringRepresentation` to `result` variable
             // end loop
-
+        for (Person person : personArray) {
+            result = result + person.toString();
+        }
         return result;
     }
 
